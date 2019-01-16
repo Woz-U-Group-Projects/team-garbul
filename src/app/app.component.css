@@ -1,0 +1,43 @@
+.col-xs-12 {
+    width: 50px;
+    border: 2px solid rgb(49, 49, 49);
+    padding: 2px;
+    margin: 2px;
+}
+.col-md-8 {
+    width: 50px;
+    border: 2px solid rgb(47, 47, 47);
+    padding: 2px;
+    margin: 2px;
+}
+
+.col-xs-6 {
+    width: 50px;
+    border: 2px solid rgb(47, 47, 47);
+    padding: 2px;
+    margin: 2px;
+}
+
+.col-md-4 {
+    width: 50px;
+    border: 2px solid rgb(47, 47, 47);
+    padding: 2px;
+    margin: 2px;
+}
+
+.container-fluid {
+    text-align: center
+}
+.bg-info {
+    text-align: center
+}
+.camera {
+    align-content: flex-start
+}
+#paul {
+text-align: left;
+background-color: grey;
+}
+#box {
+    background-color: #aec6cf;
+}
