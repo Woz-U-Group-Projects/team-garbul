@@ -7,6 +7,8 @@ import { ArtistsComponent } from './artists/artists.component';
 import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MessageFormComponent } from './message-form/message-form.component';
+import { AwsComponent } from './aws/aws.component';
+import { AngularComponent } from './angular/angular.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MessageFormComponent } from './message-form/message-form.component';
     GalleryComponent,
     ArtistsComponent,
     AboutComponent,
-    MessageFormComponent
+    MessageFormComponent,
+    AwsComponent,
+    AngularComponent
   ],
   imports: [
     BrowserModule,
