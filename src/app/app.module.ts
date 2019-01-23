@@ -1,24 +1,25 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { ArtistsComponent } from './artists/artists.component';
-import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing.module';
-import { MessageFormComponent } from './message-form/message-form.component';
-import { AwsComponent } from './aws/aws.component';
-import { AngularComponent } from './angular/angular.component';
+import { HomeComponent } from './home/home.component';
+import { NavComponent } from './nav/nav.component';
+import { PhotographersComponent } from './photographers/photographers.component';
+import { ContactComponent } from './contact/contact.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GalleryComponent,
-    ArtistsComponent,
-    AboutComponent,
-    MessageFormComponent,
-    AwsComponent,
-    AngularComponent
+    HomeComponent,
+    NavComponent,
+    PhotographersComponent,
+    ContactComponent,
+    SignInComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,

@@ -1,24 +1,29 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
 import { RouterModule, Routes } from '@angular/router';
-import { MessageFormComponent } from '../app/message-form/message-form.component';
+import { HomeComponent } from './home/home.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { PhotographersComponent } from './photographers/photographers.component';
+import { ContactComponent } from './contact/contact.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
-import { AwsComponent } from '../app/aws/aws.component';
-import { AngularComponent } from './angular/angular.component';
+
 
 const routes: Routes = [
-    { path: 'message', component: MessageFormComponent },
-    { path: 'angular', component: AngularComponent },
-    { path: 'aws', component: AwsComponent }
-];
+{ path: "", redirectTo:"home", pathMatch: "full"},
+{ path: "home", component: HomeComponent },
+{ path: "photographers", component: PhotographersComponent },
+{ path: "contact", component: ContactComponent },
+{ path: "gallery", component: GalleryComponent },
+{ path: "sign-up", component: SignUpComponent},
+{ path: "sign-in", component: SignInComponent}
+]
+
 @NgModule({
-  imports: [
-    CommonModule,
-    RouterModule.forRoot(routes)
-  ],
+  declarations: [],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
-  providers: []
+  
 
 })
 export class AppRoutingModule { }

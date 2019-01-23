@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MessageFormComponent } from './message-form.component';
+import { PhotographersComponent } from './photographers.component';
 
-describe('MessageFormComponent', () => {
-  let component: MessageFormComponent;
-  let fixture: ComponentFixture<MessageFormComponent>;
+describe('PhotographersComponent', () => {
+  let component: PhotographersComponent;
+  let fixture: ComponentFixture<PhotographersComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MessageFormComponent ]
+      declarations: [ PhotographersComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MessageFormComponent);
+    fixture = TestBed.createComponent(PhotographersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

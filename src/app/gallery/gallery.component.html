@@ -1,61 +1,54 @@
-<p>
-  gallery works!
-</p>
-<head>
-  <script type="text/javascript">
-$(window).on('scroll', function() {
-  if($(window).scrollTop()) {
-    $('nav').addClass('black');
-  }
-  else {
-    $('nav').removeClass('black');
-  }
-})
-</script>
-</head>
-<body>
-    <div class="wrapper">
-  <nav>
-    <div class="logo"> <h1>
-        <img class="camera" href="index.html" src="camera.png" alt="camera" width="75" height="50">
-     SharePix
-    </div>
-    <ul>
-      <li><a href="app.component.html">Home</a></li>
-      <li><a href="about.component.html">About</a></li>
-      <li><a href="gallery.component.html">Gallery</a></li>
-      <li><a href="artist.component.html">Artists</a></li>
-      <li><a class="active1" href="#">Log In</a></li>
-      <li><a class="active2" href="#">Sign Up</a></li>
-    </ul>
-  </nav>
-  <section class="sec1"></section>
-  <section class="content">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-       printer took a galley of type and scrambled it to make a type specimen book. It has survived
-        not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-             printer took a galley of type and scrambled it to make a type specimen book. It has survived
-              not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-              unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-               and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                   printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                    not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                         printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                          not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                          unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                           and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-  </section>
-    </div>
-    <router-outlet></router-outlet>
-    </body>
+
+<div class="container" id="grid">
+  
+    <h1 class="my-4 text-center text-lg-left"> Gallery</h1>
+
+    <div class="row text-center text-lg-left">
+
+      <div class="col-lg-3 col-md-4 col-xs-8">
+        <a href="#" class="rounded mx-auto d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="sports4.jpeg" alt="">
+        </a>
+      </div>
+       <div class="col-lg-3 col-md-4 col-xs-8">
+            <a href="#" class="rounded mx-auto d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="sports2.jpeg" alt="">
+            </a>
+       </div>
+       <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                 <img class="img-fluid img-thumbnail" src="sports3.jpeg" alt="">
+                </a>
+       </div>
+       <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+               <img class="img-fluid img-thumbnail" src="sports4.jpeg" alt="">
+                </a>
+       </div>
+       <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                 <img class="img-fluid img-thumbnail" src="sports5.jpeg" alt="">
+               </a>
+       </div>
+       <div class="col-lg-3 col-md-4 col-xs-6">
+               <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="sports6.jpeg" alt="">
+                </a>
+       </div>
+      <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="sports7.jpeg" alt="">
+                </a>
+      </div>
+     <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                <img class="img-fluid img-thumbnail" src="sports8.jpeg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+              <a href="#" class="d-block mb-4 h-100">
+               <img class="img-fluid img-thumbnail" src="sports5.jpeg" alt="">
+             </a>
+          </div>
+     </div>
+       </div>
