@@ -1,17 +1,40 @@
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand"></a><a routerLink="home">SharePix</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a routerLink="home">Home</a></li>
-        <li><a routerLink="photographers">Photographers</a></li>
-        <li><a routerLink="gallery">Gallery</a></li>
-        <li><a routerLink="contact">Contact Us</a></li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- <div id="logo">
+          <img src="">
+          <button class="logo" type="button" href="home"></button>
+     </div> -->
+  <a class="navbar-brand" href="home">Ohana Art</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+        <li class="logo">
+            <a class="nav-link" href="home" img src="turtle.png"></a>
+        </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="photographers">Artists</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery">Gallery</a>
+      </li>
+       <li class="nav-item">
+          <a class="nav-link" href="sign-up">Join</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" href="sign-in">Login</a>
+        </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a routerLink="sign-up"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a routerLink="sign-in"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </nav>
+  
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<p>Nav Works!</p>
