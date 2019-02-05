@@ -1,15 +1,68 @@
-<div class="col-lg-12" id="box"> 
-    <div ng-controller="myCtrl">
-      <h1>SignIn</h1>
-      <form>      
-       First Name:
-        <input type="text" ng-model="firstName">
-        <br>
-        <br> Last Name:
-        <input type="text" ng-model="lastName">
-        <br>
-        <br>
-        <input type="submit" value="Submit" ng-click="submit()">
-      </form>
+<app-nav></app-nav>
+
+  <div class="container">
+    <div class="jumbotron">
+<div ng-controller="loginCtrl">
+  <form action="/" id="myLogin">
+  Username: <input type="text" id="username" ng-model="username"><br />
+  Password:<input type="password"  id="password" ng-model="password">
+  <button type="button" ng-click="submit()">Login</button>
+</form>
     </div>
+  </div>
+</div>
+<!-- Section: form gradient -->
+<!-- Section: form dark -->
+<section class="form-dark mb-5">
+
+    <!--Form without header-->
+    <div class="card card-image" style="background-color: rgb(75, 155, 175)">
+      <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+  
+        <!--Header-->
+        <div class="text-center">
+          <h3 class="white-text mb-5 mt-4 font-weight-bold text-uppercase">
+            <strong>Contact</strong>
+            <a class="green-text font-weight-bold">
+              <strong> Us</strong>
+            </a>
+          </h3>
+        </div>
+  
+        <div class="md-form">
+          <input type="text"  id="form100" class="form-control" mdbInputDirective>
+          <label for="form100">Your name</label>
+        </div>
+  
+        <div class="md-form">
+          <input type="text" id="form101" class="form-control" mdbInputDirective>
+          <label for="form101">Your email</label>
+        </div>
+  
+        <div class="md-form">
+          <input type="text" id="form102" class="form-control" mdbInputDirective>
+          <label for="form102">Subject</label>
+        </div>
+  
+        <div class="md-form">
+          <textarea type="text" id="form103" class="md-textarea form-control" rows="5" mdbInputDirective></textarea>
+          <label for="form103">Your message</label>
+        </div>
+  
+        <!--Grid row-->
+        <div class="row d-flex align-items-center">
+  
+          <!--Grid column-->
+          <div class="text-center col-md-12 mt-3 mb-2">
+            <button type="button" mdbBtn color="success" rounded="true" block="true" class="z-depth-1">Send</button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+  
+      </div>
     </div>
+    <!--/Form without header-->
+  
+  </section>
+  <!-- Section: form dark -->

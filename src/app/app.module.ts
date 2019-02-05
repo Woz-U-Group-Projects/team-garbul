@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule, MatCardModule } from '@angular/material';
+
 import { GalleryComponent } from './gallery/gallery.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
@@ -12,6 +15,10 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
+import { Nav2Component } from './nav2/nav2.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -23,13 +30,19 @@ import { FormsModule } from '@angular/forms';
     ContactComponent,
     SignInComponent,
     SignUpComponent,
-    SearchComponent
+    SearchComponent,
+    Nav2Component,
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatCardModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

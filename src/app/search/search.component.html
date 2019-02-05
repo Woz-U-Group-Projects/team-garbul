@@ -1,3 +1,15 @@
-<p>
-  search works!
-</p>
+<!-- <div class="container">
+  <br/>
+<input [(ngModel)]="search" id="searchBar2" class="form-control form-secondary"> 
+<br />
+<button (click)="addSearch"  class="btn btn-info btn-sm">Search</button>
+<ul>
+    <li *ngFor="let search of searchBar">{{search}}</li>
+</ul>
+</div> -->
+<mat-form-field>
+<textarea matInput rows="6" [(ngModel)]="enteredValue"></textarea>
+</mat-form-field>
+<hr>
+<button (click)="onAddPost ()">Save Post</button>
+<p>{{ newPost }}</p>
