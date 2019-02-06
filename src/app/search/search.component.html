@@ -1,4 +1,4 @@
-<!-- <div class="container">
+<div class="container">
   <br/>
 <input [(ngModel)]="search" id="searchBar2" class="form-control form-secondary"> 
 <br />
@@ -6,10 +6,16 @@
 <ul>
     <li *ngFor="let search of searchBar">{{search}}</li>
 </ul>
-</div> -->
-<mat-form-field>
-<textarea matInput rows="6" [(ngModel)]="enteredValue"></textarea>
-</mat-form-field>
-<hr>
-<button (click)="onAddPost ()">Save Post</button>
-<p>{{ newPost }}</p>
+</div>
+
+ <body ng-app="mainApp">
+   <div ng-controller="people">
+     <ul>
+       <h2>Names and Age of Programmers in the local area:</h2>
+       <li ng-repeat="person in persons">
+         {{ person.Name + ' : ' + person.Age}}
+
+       </li>
+     </ul>
+   </div>
+ </body>

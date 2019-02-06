@@ -2,7 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatInputModule, MatCardModule } from '@angular/material';
+import { 
+  MatInputModule,
+  MatCardModule,
+  MatButtonModule,
+  MatToolbarModule
+   } from '@angular/material';
 
 import { GalleryComponent } from './gallery/gallery.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -16,6 +21,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { Nav2Component } from './nav2/nav2.component';
+import { PostCreateComponent } from './post-create/post-create.component';
 
 
 
@@ -32,6 +38,7 @@ import { Nav2Component } from './nav2/nav2.component';
     SignUpComponent,
     SearchComponent,
     Nav2Component,
+    PostCreateComponent,
    
   ],
   imports: [
@@ -41,8 +48,9 @@ import { Nav2Component } from './nav2/nav2.component';
     NgbModule.forRoot(),
     BrowserAnimationsModule,
     MatInputModule,
-    MatCardModule
-    
+    MatCardModule,
+    MatButtonModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
