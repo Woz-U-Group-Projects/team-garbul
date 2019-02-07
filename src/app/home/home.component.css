@@ -56,16 +56,20 @@ mat-grid-tile {
     max-width: 100%;
 }
 .example10{
-  background-image: url('https://material.angular.io/assets/img/examples/shiba2.jpg');
+  background-image: url(../../assets/sports1.jpeg);
+    background-size: cover;
+    max-width: 100%;
+}
+.example11{
+  background-image: url(../../assets/sports2.jpeg);
+    background-size: cover;
+    max-width: 100%;
+}
+.example12{
+  background-image: url(../../assets/sports6.jpeg);
     background-size: cover;
     max-width: 100%;
 }
 
-  /* .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-  } */
 
-  .img-thumbnail {
-    max-width: 100%;
-  }
+  

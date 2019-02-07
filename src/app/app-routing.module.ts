@@ -10,7 +10,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 
 
 const routes: Routes = [
-{ path: "", redirectTo:"", pathMatch: "full"},
+{ path: "", redirectTo:"home", pathMatch: "full"},
 { path: "home", component: HomeComponent },
 { path: "photographers", component: PhotographersComponent },
 { path: "contact", component: ContactComponent },
