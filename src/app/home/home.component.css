@@ -1,0 +1,70 @@
+
+
+mat-grid-tile {
+    background: rgb(118, 161, 185);
+
+}
+
+.example-card {
+    max-width: 100%;
+  }
+  
+.example {
+    background-image: url(../../assets/sports1.jpeg);
+    background-size: cover;
+    max-width: 100%;
+}
+.example2{
+  background-image: url(../../assets/sports2.jpeg);
+  background-size: cover;
+  max-width: 100%;
+}
+.example3{
+  background-image: url(../../assets/sports3.jpeg);
+    background-size: cover;
+    max-width: 100%;
+}
+.example4{
+  background-image: url(../../assets/sports6.jpeg);
+    background-size: cover;
+    max-width: 100%;
+}
+.example5{
+  background-image: url(../../assets/sports5.jpeg);
+    background-size: cover;
+    max-width: 100%;
+}
+.example6{
+  background-image: url('https://material.angular.io/assets/img/examples/shiba2.jpg');
+    background-size: cover;
+    max-width: 100%;
+}
+.example7{
+  background-image: url('https://material.angular.io/assets/img/examples/shiba2.jpg');
+    background-size: cover;
+    max-width: 100%;
+}
+.example8{
+  background-image: url('https://material.angular.io/assets/img/examples/shiba2.jpg');
+    background-size: cover;
+    max-width: 100%;
+}
+.example9{
+  background-image: url('https://material.angular.io/assets/img/examples/shiba2.jpg');
+    background-size: cover;
+    max-width: 100%;
+}
+.example10{
+  background-image: url('https://material.angular.io/assets/img/examples/shiba2.jpg');
+    background-size: cover;
+    max-width: 100%;
+}
+
+  /* .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  } */
+
+  .img-thumbnail {
+    max-width: 100%;
+  }

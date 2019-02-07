@@ -6,7 +6,8 @@ import {
   MatInputModule,
   MatCardModule,
   MatButtonModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatGridListModule,
    } from '@angular/material';
 
 import { GalleryComponent } from './gallery/gallery.component';
@@ -50,7 +51,8 @@ import { PostCreateComponent } from './post-create/post-create.component';
     MatInputModule,
     MatCardModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

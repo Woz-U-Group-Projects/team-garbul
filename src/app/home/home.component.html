@@ -1,9 +1,40 @@
-<app-nav2></app-nav2>
-    <div class="container- fluid">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  
+  <a class="navbar-brand" href="home">
+      <img src="turtle.png" width="45" height="35" class="d-inline-block align-top" alt="">
+      Ohana Art
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="photographers">Artists</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery">Gallery</a>
+      </li>
+       <li class="nav-item">
+          <a class="nav-link" href="sign-up">Join</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" href="sign-in">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+  <div class="container- fluid">
         <img src="mcd.jpg" width="100%" height="100%">
         <div class="container">
             <br/>
-          <input [(ngModel)]="search" id="searchBar2" class="form-control form-secondary"> 
+          <input [(ngModel)]="search" id="searchBar2" placeholder="What are you looking for?" class="form-control form-secondary"> 
           <br />
           <button (click)="addSearch"  class="btn btn-info btn-sm">Search</button>
           <ul>
@@ -11,139 +42,161 @@
           </ul>
           </div>
     </div>
+
+
+<!-- paragraph -->
 <div class="card">
         <div class="card-body">
     <h1><p>Aloha, Welcome to Ohana Art!</p></h1>
     <p class="lead" cols="30" row="20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laudantium, mollitia, atque odio voluptatem incidunt esse ullam labore enim ab, quod omnis animi. Asperiores animi atque corporis, fugiat quisquam maiores ipsum cumque mollitia non aliquam sequi sapiente. Quam, laborum pariatur vero asperiores accusamus dolore voluptas dolorum illo fugit rerum molestias delectus nemo dicta dignissimos voluptate, laboriosam maxime ex aliquam. Cumque et sint quo eos?</p>
 </div>
 </div>
+
+
+<!-- photo grid -->
 <div class="container-fluid" id="grid">
   
     <h1 class="my-4 text-center text-lg-left"> Gallery</h1>
     <div class="row text-center text-lg-left">
       <div class="col-lg-3 col-md-4 col-xs-8">
         <a href="#" class="rounded mx-auto d-block mb-4 h-100">
-          <img class="img-fluid img-thumbnail" src="sports4.jpeg" alt="">
+          <img class="img-fluid img-thumbnail" src="../../assets/sports6.jpeg" alt="">
         </a>
       </div>
        <div class="col-lg-3 col-md-4 col-xs-8">
             <a href="#" class="rounded mx-auto d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="sports2.jpeg" alt="">
+              <img class="img-fluid img-thumbnail" src="../../assets/sports2.jpeg" alt="">
             </a>
        </div>
        <div class="col-lg-3 col-md-4 col-xs-6">
                 <a href="#" class="d-block mb-4 h-100">
-                 <img class="img-fluid img-thumbnail" src="sports3.jpeg" alt="">
+                 <img class="img-fluid img-thumbnail" src="../../assets/sports3.jpeg" alt="">
                 </a>
        </div>
        <div class="col-lg-3 col-md-4 col-xs-6">
                 <a href="#" class="d-block mb-4 h-100">
-               <img class="img-fluid img-thumbnail" src="sports4.jpeg" alt="">
+               <img class="img-fluid img-thumbnail" src="../../assets/sports1.jpeg" alt="">
                 </a>
        </div>
        <div class="col-lg-3 col-md-4 col-xs-6">
                 <a href="#" class="d-block mb-4 h-100">
-                 <img class="img-fluid img-thumbnail" src="sports5.jpeg" alt="">
+                 <img class="img-fluid img-thumbnail" src="../../assets/sports5.jpeg" alt="">
                </a>
        </div>
        <div class="col-lg-3 col-md-4 col-xs-6">
                <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="sports6.jpeg" alt="">
+                <img class="img-fluid img-thumbnail" src="../../assets/sports6.jpeg" alt="">
                 </a>
        </div>
       <div class="col-lg-3 col-md-4 col-xs-6">
                 <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="sports7.jpeg" alt="">
+                <img class="img-fluid img-thumbnail" src="../../assets/sports7.jpeg" alt="">
                 </a>
       </div>
      <div class="col-lg-3 col-md-4 col-xs-6">
                 <a href="#" class="d-block mb-4 h-100">
-                <img class="img-fluid img-thumbnail" src="sports8.jpeg" alt="">
+                <img class="img-fluid img-thumbnail" src="../../assets/sports8.jpeg" alt="">
                 </a>
           </div>
           <div class="col-lg-3 col-md-4 col-xs-6">
               <a href="#" class="d-block mb-4 h-100">
-               <img class="img-fluid img-thumbnail" src="sports5.jpeg" alt="">
+               <img class="img-fluid img-thumbnail" src="../../assets/sports5.jpeg" alt="">
              </a>
           </div>
           <div class="col-lg-3 col-md-4 col-xs-6">
               <a href="#" class="d-block mb-4 h-100">
-               <img class="img-fluid img-thumbnail" src="sports6.jpeg" alt="">
+               <img class="img-fluid img-thumbnail" src="../../assets/sports6.jpeg" alt="">
                </a>
       </div>
      <div class="col-lg-3 col-md-4 col-xs-6">
                <a href="#" class="d-block mb-4 h-100">
-               <img class="img-fluid img-thumbnail" src="sports7.jpeg" alt="">
+               <img class="img-fluid img-thumbnail" src="../../assets/sports7.jpeg" alt="">
                </a>
      </div>
     <div class="col-lg-3 col-md-4 col-xs-6">
                <a href="#" class="d-block mb-4 h-100">
-               <img class="img-fluid img-thumbnail" src="sports8.jpeg" alt="">
+               <img class="img-fluid img-thumbnail" src="../../assets/sports8.jpeg" alt="">
                </a>
          </div>
          <div class="col-lg-3 col-md-4 col-xs-6">
              <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="sports5.jpeg" alt="">
+              <img class="img-fluid img-thumbnail" src="../../assets/sports5.jpeg" alt="">
             </a>
          </div>
          <div class="col-lg-3 col-md-4 col-xs-6">
             <a href="#" class="d-block mb-4 h-100">
-             <img class="img-fluid img-thumbnail" src="sports6.jpeg" alt="">
+             <img class="img-fluid img-thumbnail" src="../../assets/sports6.jpeg" alt="">
              </a>
     </div>
    <div class="col-lg-3 col-md-4 col-xs-6">
              <a href="#" class="d-block mb-4 h-100">
-             <img class="img-fluid img-thumbnail" src="sports7.jpeg" alt="">
+             <img class="img-fluid img-thumbnail" src="../../assets/sports7.jpeg" alt="">
              </a>
    </div>
   <div class="col-lg-3 col-md-4 col-xs-6">
              <a href="#" class="d-block mb-4 h-100">
-             <img class="img-fluid img-thumbnail" src="sports8.jpeg" alt="">
+             <img class="img-fluid img-thumbnail" src="../../assets/sports8.jpeg" alt="">
              </a>
        </div>
        <div class="col-lg-3 col-md-4 col-xs-6">
            <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="sports5.jpeg" alt="">
+            <img class="img-fluid img-thumbnail" src="../../assets/sports5.jpeg" alt="">
           </a>
        </div>
        <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-           <img class="img-fluid img-thumbnail" src="sports6.jpeg" alt="">
+           <img class="img-fluid img-thumbnail" src="../../assets/sports6.jpeg" alt="">
            </a>
   </div>
  <div class="col-lg-3 col-md-4 col-xs-6">
            <a href="#" class="d-block mb-4 h-100">
-           <img class="img-fluid img-thumbnail" src="sports7.jpeg" alt="">
+           <img class="img-fluid img-thumbnail" src="../../assets/sports7.jpeg" alt="">
            </a>
  </div>
 <div class="col-lg-3 col-md-4 col-xs-6">
            <a href="#" class="d-block mb-4 h-100">
-           <img class="img-fluid img-thumbnail" src="sports8.jpeg" alt="">
+           <img class="img-fluid img-thumbnail" src="../../assets/sports8.jpeg" alt="">
            </a>
      </div>
      <div class="col-lg-3 col-md-4 col-xs-6">
          <a href="#" class="d-block mb-4 h-100">
-          <img class="img-fluid img-thumbnail" src="sports5.jpeg" alt="">
+          <img class="img-fluid img-thumbnail" src="../../assets/sports5.jpeg" alt="">
         </a>
      </div> <div class="col-lg-3 col-md-4 col-xs-6">
         <a href="#" class="d-block mb-4 h-100">
-         <img class="img-fluid img-thumbnail" src="sports6.jpeg" alt="">
+         <img class="img-fluid img-thumbnail" src="../../assets/sports6.jpeg" alt="">
          </a>
 </div>
 <div class="col-lg-3 col-md-4 col-xs-6">
          <a href="#" class="d-block mb-4 h-100">
-         <img class="img-fluid img-thumbnail" src="sports7.jpeg" alt="">
+         <img class="img-fluid img-thumbnail" src="../../assets/sports7.jpeg" alt="">
          </a>
 </div>
 <div class="col-lg-3 col-md-4 col-xs-6">
          <a href="#" class="d-block mb-4 h-100">
-         <img class="img-fluid img-thumbnail" src="sports8.jpeg" alt="">
+         <img class="img-fluid img-thumbnail" src="../../assets/sports8.jpeg" alt="">
          </a>
    </div>
    
      </div>
        </div>
 
+       <mat-grid-list cols="4" rowHeight="1:1">
+        <mat-grid-tile class="example"></mat-grid-tile>
+        <mat-grid-tile class="example2"></mat-grid-tile>
+        <mat-grid-tile class="example3"></mat-grid-tile>
+        <mat-grid-tile class="example4"></mat-grid-tile>
+        <mat-grid-tile class="example5"></mat-grid-tile>
+        <mat-grid-tile class="example6"></mat-grid-tile>
+        <mat-grid-tile class="example7"></mat-grid-tile>
+        <mat-grid-tile class="example8"></mat-grid-tile>
+        <mat-grid-tile class="example9"></mat-grid-tile>
+        <mat-grid-tile class="example10"></mat-grid-tile>
+        <mat-grid-tile class="example11"></mat-grid-tile>
+        <mat-grid-tile class="example12"></mat-grid-tile>
+
+
+        
 
 
 
