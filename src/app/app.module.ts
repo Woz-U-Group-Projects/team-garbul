@@ -7,6 +7,7 @@ import {
   MatCardModule,
   MatButtonModule,
   MatToolbarModule,
+  MatExpansionModule,
   MatGridListModule,
    } from '@angular/material';
 
@@ -22,7 +23,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { Nav2Component } from './nav2/nav2.component';
-import { PostCreateComponent } from './post-create/post-create.component';
+import { PostCreateComponent } from './posts/post-create/post-create.component';
 
 
 
@@ -52,7 +53,8 @@ import { PostCreateComponent } from './post-create/post-create.component';
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatGridListModule
+    MatGridListModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
