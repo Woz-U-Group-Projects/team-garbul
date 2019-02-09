@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
   
   <a class="navbar-brand" href="home">
       <img src="../../assets/Bturtle.png" width="45" height="35" class="d-inline-block align-top" alt="logo">
@@ -29,28 +29,53 @@
         </li>
       </ul>
     </div>
-  </nav>
-  
+  </nav> -->
 
+  <!-- navagation -->
+<div class="container-fluid">
+<mat-card>
+<mat-toolbar   class="fixed-header">
+    <mat-toolbar-row>
+    <span><img  src="./assets/Bturtle.png"  style="width:35px; height:20;"></span>
+    <h1><p>Ohana art</p></h1>
+    <a  mat-button  routerLink="home"  routerLinkActive="active">home</a>
+    <a  mat-button  routerLink="gallery">gallery</a>
+    <a  mat-button  routerLink="artists">artists</a>
+    <a  mat-button  routerLink="">upload</a>
+    <a  mat-button  routerLink="">Login</a>
+    </mat-toolbar-row>
+    </mat-toolbar>
+  </mat-card>
+</div>
+<br/>
+
+  <!-- this is the greeting -->
   <div class="container-fluid">
       <mat-card>
-  <h1><p>Aloha, Welcome to Ohana Art!</p></h1>
+  <h1><p>Aloha, welcome to Ohana art!</p></h1>
 </mat-card>
 </div>
-  
-  <div class="container-fluid">
-     <mat-card class="header-img">
-        <img mat-card-image src="../../assets/beach-clouds-dawn.jpg" class="joan-pic" alt="Photo of Joan">
+<mat-divider></mat-divider>
+<div class="container-fluid">
+    <mat-card>
+<h5><p> Ohana art is a family of artists where we collaborate and encourage one another as we grow in our craft. Mahalo for visiting our family</p></h5>
+</mat-card>
+</div>
+  <br/>
+<!-- this is the header picture -->
+  <div class="container" id="header-image">
+     <mat-card>
+        <img mat-card-image src="../../assets/hawaii-beach-smaller.jpg" class="joan-pic" alt="Photo of Joan">
       </mat-card>
       </div>
-      <br/>
+      <br />
     
 
 
 
 
 
-
+<!-- the photo gallery -->
       <div class="container-fluid" id="grid">
           <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
@@ -80,7 +105,7 @@
                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
                   <a href="#">
                       <mat-card>
-                          <img mat-card-image src="../../assets/sports7.jpeg" alt="Photo of Joan">
+                          <img mat-card-image src="../../assets/sports2.jpeg" alt="Photo of Joan">
                         </mat-card>
               </a>
          </div>
@@ -130,7 +155,7 @@
         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
             <a href="#">
                 <mat-card>
-                    <img mat-card-image src="../../assets/sports1.jpeg" alt="Photo of Joan">
+                    <img mat-card-image src="../../assets/sports5.jpeg" alt="Photo of Joan">
                </mat-card>
         </a>
         </div>
