@@ -9,6 +9,7 @@ import {
   MatToolbarModule,
   MatExpansionModule,
   MatGridListModule,
+  MatProgressSpinnerModule
    } from '@angular/material';
 
 import { GalleryComponent } from './gallery/gallery.component';
@@ -21,9 +22,12 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchComponent } from './search/search.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Nav2Component } from './nav2/nav2.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
+import { PostListComponent } from './posts/post-list/post-list.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -41,6 +45,8 @@ import { PostCreateComponent } from './posts/post-create/post-create.component';
     SearchComponent,
     Nav2Component,
     PostCreateComponent,
+    PostListComponent,
+    FooterComponent
    
   ],
   imports: [
@@ -54,7 +60,10 @@ import { PostCreateComponent } from './posts/post-create/post-create.component';
     MatButtonModule,
     MatToolbarModule,
     MatGridListModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatProgressSpinnerModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

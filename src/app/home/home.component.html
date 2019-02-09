@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   
   <a class="navbar-brand" href="home">
-      <img src="../../assets/turtle.png" width="45" height="35" class="d-inline-block align-top" alt="logo">
+      <img src="../../assets/Bturtle.png" width="45" height="35" class="d-inline-block align-top" alt="logo">
       Ohana Art
   </a>
     
@@ -22,7 +22,7 @@
         <a class="nav-link" href="gallery">Gallery</a>
       </li>
        <li class="nav-item">
-          <a class="nav-link" href="sign-up">Join</a>
+          <a class="nav-link" href="post-create">Upload</a>
        </li>
        <li class="nav-item">
            <a class="nav-link" href="sign-in">Login</a>
@@ -31,52 +31,129 @@
     </div>
   </nav>
   
+
+  <div class="container-fluid">
+      <mat-card>
+  <h1><p>Aloha, Welcome to Ohana Art!</p></h1>
+</mat-card>
+</div>
   
   <div class="container-fluid">
-        <img src="../../assets/beach-clouds-dawn-974212.jpg" width="100%">
-        <div class="container">
-            <br/>
-          <input [(ngModel)]="search" id="searchBar2" placeholder="What are you looking for?" class="form-control form-secondary"> 
-          <br />
-          <button (click)="addSearch"  class="btn btn-info btn-sm">Search</button>
-          <ul>
-              <li *ngFor="let search of searchBar">{{search}}</li>
-          </ul>
-          </div>
-    </div>
-
-
-<!-- paragraph -->
-<div class="card">
-        <div class="card-body">
-    <h1><p>Aloha, Welcome to Ohana Art!</p></h1>
-    <p class="lead" cols="30" row="20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laudantium, mollitia, atque odio voluptatem incidunt esse ullam labore enim ab, quod omnis animi. Asperiores animi atque corporis, fugiat quisquam maiores ipsum cumque mollitia non aliquam sequi sapiente. Quam, laborum pariatur vero asperiores accusamus dolore voluptas dolorum illo fugit rerum molestias delectus nemo dicta dignissimos voluptate, laboriosam maxime ex aliquam. Cumque et sint quo eos?</p>
-</div>
-</div>
+     <mat-card class="header-img">
+        <img mat-card-image src="../../assets/beach-clouds-dawn.jpg" class="joan-pic" alt="Photo of Joan">
+      </mat-card>
+      </div>
+      <br/>
+    
 
 
 
 
-       <mat-grid-list cols="4" rowHeight="2:1">
-        <mat-grid-tile class="example">
-            <mat-card class="example-card">
-               
-                <img mat-card-image src="../../assets/sports1.jpeg" class="joan-pic" alt="Photo of Joan">
-            
+
+
+      <div class="container-fluid" id="grid">
+          <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <a href="#">
+                        <mat-card>
+                            <img mat-card-image src="../../assets/sports2.jpeg" alt="Photo of Joan">
+                          </mat-card>
+                </a>
+           </div>
                 
+               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                  <a href="#">
+                      <mat-card>
+                          <img mat-card-image src="../../assets/sports6.jpeg" alt="Photo of Joan">
+                        </mat-card>
+              </a>
+         </div>
+              
+               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <a href="#"> 
+                            <mat-card>
+                                <img mat-card-image src="../../assets/sports8.jpeg" alt="Photo of Joan">
+                              </mat-card>
+                    </a>
+               </div>
+             
+               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                  <a href="#">
+                      <mat-card>
+                          <img mat-card-image src="../../assets/sports7.jpeg" alt="Photo of Joan">
+                        </mat-card>
+              </a>
+         </div>
+           
+        
+           
+               <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                  <a href="#">
+                      <mat-card>
+                          <img mat-card-image src="../../assets/sports5.jpeg" alt="Photo of Joan">
+                        </mat-card>
+              </a>
+         </div>
+            
+         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+            <a href="#">
+                <mat-card>
+                    <img mat-card-image src="../../assets/sports2.jpeg" alt="Photo of Joan">
+                  </mat-card>
+        </a>
+        </div>
+                
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+            <a href="#">
+                <mat-card>
+                    <img mat-card-image src="../../assets/sports6.jpeg" alt="Photo of Joan">
+                  </mat-card>
+        </a>
+        </div>
+               
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+            <a href="#">
+                <mat-card>
+                    <img mat-card-image src="../../assets/sports3.jpeg" alt="Photo of Joan">
+                  </mat-card>
+        </a>
+        </div>
+        
+        
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <a href="#">
+                    <mat-card>
+                        <img mat-card-image src="../../assets/sports8.jpeg" alt="Photo of Joan">
+                      </mat-card>
+            </a>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+            <a href="#">
+                <mat-card>
+                    <img mat-card-image src="../../assets/sports1.jpeg" alt="Photo of Joan">
+               </mat-card>
+        </a>
+        </div>
+        
+        
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+            <a href="#">
+              <mat-card>
+            <img mat-card-image src="../../assets/sports3.jpeg" alt="Photo of Joan">
+          </mat-card>
+        </a>
+        </div>
+        
+        
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+            <a href="#">    
+              <mat-card>
+                <img mat-card-image src="../../assets/sports6.jpeg" alt="Photo of Joan">
               </mat-card>
-        </mat-grid-tile>
-        <mat-grid-tile class="example2"></mat-grid-tile>
-        <mat-grid-tile class="example3"></mat-grid-tile>
-        <mat-grid-tile class="example4"></mat-grid-tile>
-        <mat-grid-tile class="example5"></mat-grid-tile>
-        <mat-grid-tile class="example6"></mat-grid-tile>
-        <mat-grid-tile class="example7"></mat-grid-tile>
-        <mat-grid-tile class="example8"></mat-grid-tile>
-        <mat-grid-tile class="example9"></mat-grid-tile>
-        <mat-grid-tile class="example10"></mat-grid-tile>
-        <mat-grid-tile class="example11"></mat-grid-tile>
-        <mat-grid-tile class="example12"></mat-grid-tile>
+        </a>
+                </div> 
+</div>
+</div>
 
 
         

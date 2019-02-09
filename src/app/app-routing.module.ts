@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { PhotographersComponent } from './photographers/photographers.component';
 import { ContactComponent } from './contact/contact.component';
-import { SignUpComponent } from './sign-up/sign-up.component';
+import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 
 
@@ -15,7 +15,7 @@ const routes: Routes = [
 { path: "photographers", component: PhotographersComponent },
 { path: "contact", component: ContactComponent },
 { path: "gallery", component: GalleryComponent },
-{ path: "sign-up", component: SignUpComponent},
+{ path: "post-create", component: PostCreateComponent},
 { path: "sign-in", component: SignInComponent}
 ]
 
