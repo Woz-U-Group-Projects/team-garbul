@@ -11,7 +11,8 @@ import {
   MatGridListModule,
   MatProgressSpinnerModule,
   MatMenuModule,
-  MatDividerModule
+  MatDividerModule,
+  MatIcon
    } from '@angular/material';
   
 import { GalleryComponent } from './gallery/gallery.component';
@@ -30,6 +31,9 @@ import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
+import { ProJoanComponent } from './pro-joan/pro-joan.component';
+import { ProLeoComponent } from './pro-leo/pro-leo.component';
+import { ProTommyComponent } from './pro-tommy/pro-tommy.component';
 
 
 
@@ -48,7 +52,11 @@ import { FooterComponent } from './footer/footer.component';
     Nav2Component,
     PostCreateComponent,
     PostListComponent,
-    FooterComponent
+    FooterComponent,
+    ProJoanComponent,
+    ProLeoComponent,
+    ProTommyComponent,
+    MatIcon
    
   ],
   imports: [
@@ -67,7 +75,8 @@ import { FooterComponent } from './footer/footer.component';
     ReactiveFormsModule,
     HttpClientModule,
     MatMenuModule,
-    MatDividerModule
+    MatDividerModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
