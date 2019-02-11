@@ -27,7 +27,7 @@ background-size: cover;
 }
 
 #header-image {
-height: 600px;
+height: 100%;
   width: 80%;
 }
 
@@ -58,3 +58,12 @@ a {
   img {
     background-image: cover;
   } */
+
+
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align:center;
+  }
